@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Grid, Crown, Users, LogIn } from "lucide-react";
+import { Grid, Crown, Users, LogIn, Gamepad2 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -13,6 +13,7 @@ export default function Navbar() {
     { name: "Ranking", href: "/ranking", icon: Crown },
     { name: "Community", href: "/community", icon: Users },
     { name: "My TierUp", href: "/create", icon: Grid },
+    { name: "Party Game", href: "/game", icon: Gamepad2 },
   ];
 
   return (
